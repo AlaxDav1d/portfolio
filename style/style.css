@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #400303;
+    height: 100px;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+    color: antiquewhite;
+    background-color: #000;
+    height: 50px;
+    padding: 10px;
+    text-decoration: none;
+  
+}
+nav a:hover{
+    background-color: rgb(10, 116, 221);
+    transition: 2s; 
+}
+.img_top img{
+    width: 100px;
+}
+
+.central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/style/rei.png');
+    height: 500px;
+    color: #fff;
+}
+.texto{
+    background-color: #400303;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    gap: 10px;
+    padding: 20px;
+}
+.texto img{
+    height: 500px;
+    width: 400px;
+}
+.imagens img{
+    width: 800px;
+
+}
+.imagens{
+    background-color: #400303;
+    padding-top: 10px;
+    display: flex;
+    overflow-x: scroll;
+    
+}
+footer{
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    background-color: #400303;
+}
+footer a{
+    color: antiquewhite;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+
+}
